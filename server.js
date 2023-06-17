@@ -27,6 +27,7 @@ const confirm = {
 
 
 bot.onText(/\/start/, async (msg) => {
+  console.log('started')
   let { id: userId } = msg.from;
   customersI[userId] = 0;
   customers[userId] = [];
