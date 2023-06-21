@@ -65,7 +65,7 @@ bot.on("message", (msg) => {
       bot.sendMessage(userId, `Iltimos bot tugmalaridan birini tanlang`, {
         parse_mode: "Markdown",
         reply_markup: homeBtns,
-      });
+      })
       return;
     }
 
