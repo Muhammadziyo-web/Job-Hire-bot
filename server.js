@@ -4,7 +4,7 @@ require("dotenv").config();
 
 let bot = new TelegramBot(process.env.TOKEN, {
   polling: true,
-});
+});  
 
 let customers = {};
 let customersI = {};
